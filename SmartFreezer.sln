@@ -1,0 +1,134 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFreezer.MachineSimulator.UI", "SmartFreezer.MachineSimulator.UI\SmartFreezer.MachineSimulator.UI.csproj", "{C92BED52-CF26-4D30-BE2D-B1FCB8D7D303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analyse", "Analyse", "{41DA9A8F-519D-4B59-AC85-5663050D682E}"
+	ProjectSection(SolutionItems) = preProject
+		Azure Event Hubs & Streaming Analytics for IoT.pptx = Azure Event Hubs & Streaming Analytics for IoT.pptx
+		Azure Event Hubs and Stream Analytics for IoT Solutions.docx = Azure Event Hubs and Stream Analytics for IoT Solutions.docx
+		SmartFreezer.simp = SmartFreezer.simp
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartFreezer.EventHub.Sender", "SmartFreezer.EventHub.Sender\SmartFreezer.EventHub.Sender.csproj", "{6A126849-4D28-457B-9432-B8BF4C6A796F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Event Consumers", "Event Consumers", "{9574B91A-8F7F-4DF9-9521-AB44F6865CAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Event Senders", "Event Senders", "{7B808C24-29AE-4924-ACB7-34C6E110771F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MachineSimulator", "MachineSimulator", "{D2AA463A-B3E3-4B6B-9537-D1CEB813FA1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartFreezer.EventConsumer.EventHubClient.SinglePartition", "SmartFreezer.EventConsumer.EventHubClient.SinglePartition\SmartFreezer.EventConsumer.EventHubClient.SinglePartition.csproj", "{64579844-429B-41CF-ACA6-6E42A8DFF26A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain model", "Domain model", "{65449D6D-60F6-4532-BF3E-35F95DF63D66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartFreezer.Domain", "SmartFreezer.Domain\SmartFreezer.Domain.csproj", "{85940E00-7451-4609-8183-0248B52A6F44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartFreezer.EventConsumer.EventHubClient.AllPartitions", "SmartFreezer.EventConsumer.EventHubClient.AllPartitions\SmartFreezer.EventConsumer.EventHubClient.AllPartitions.csproj", "{93886308-4988-473E-B3A2-389EB406527D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Event Archive", "Event Archive", "{8D12F3C0-937B-4054-8C6D-DC98616D6C34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartFreezer.EventArchive.CaptureReceiver", "SmartFreezer.EventArchive.CaptureReceiver\SmartFreezer.EventArchive.CaptureReceiver.csproj", "{DBA1C3FD-5E2B-4EEC-A504-A68C4351D9C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure Functions", "Azure Functions", "{4AD7B608-16FE-4A6B-886E-ADF0DBE3E51B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartFreezer.AzureFunctions", "SmartFreezer.AzureFunctions\SmartFreezer.AzureFunctions.csproj", "{56B5FEBA-B500-45DB-99B6-46EA3275D413}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartFreezer.EventConsumer.EventProcessorHost", "SmartFreezer.EventConsumer.EventProcessorHost\SmartFreezer.EventConsumer.EventProcessorHost.csproj", "{A9736289-56B0-4010-A022-83DE1E00EF53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C92BED52-CF26-4D30-BE2D-B1FCB8D7D303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92BED52-CF26-4D30-BE2D-B1FCB8D7D303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92BED52-CF26-4D30-BE2D-B1FCB8D7D303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92BED52-CF26-4D30-BE2D-B1FCB8D7D303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A126849-4D28-457B-9432-B8BF4C6A796F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A126849-4D28-457B-9432-B8BF4C6A796F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A126849-4D28-457B-9432-B8BF4C6A796F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A126849-4D28-457B-9432-B8BF4C6A796F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64579844-429B-41CF-ACA6-6E42A8DFF26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64579844-429B-41CF-ACA6-6E42A8DFF26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64579844-429B-41CF-ACA6-6E42A8DFF26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64579844-429B-41CF-ACA6-6E42A8DFF26A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85940E00-7451-4609-8183-0248B52A6F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85940E00-7451-4609-8183-0248B52A6F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85940E00-7451-4609-8183-0248B52A6F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85940E00-7451-4609-8183-0248B52A6F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93886308-4988-473E-B3A2-389EB406527D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93886308-4988-473E-B3A2-389EB406527D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93886308-4988-473E-B3A2-389EB406527D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93886308-4988-473E-B3A2-389EB406527D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA1C3FD-5E2B-4EEC-A504-A68C4351D9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA1C3FD-5E2B-4EEC-A504-A68C4351D9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA1C3FD-5E2B-4EEC-A504-A68C4351D9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA1C3FD-5E2B-4EEC-A504-A68C4351D9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B5FEBA-B500-45DB-99B6-46EA3275D413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B5FEBA-B500-45DB-99B6-46EA3275D413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B5FEBA-B500-45DB-99B6-46EA3275D413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B5FEBA-B500-45DB-99B6-46EA3275D413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9736289-56B0-4010-A022-83DE1E00EF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9736289-56B0-4010-A022-83DE1E00EF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9736289-56B0-4010-A022-83DE1E00EF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9736289-56B0-4010-A022-83DE1E00EF53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C92BED52-CF26-4D30-BE2D-B1FCB8D7D303} = {D2AA463A-B3E3-4B6B-9537-D1CEB813FA1A}
+		{6A126849-4D28-457B-9432-B8BF4C6A796F} = {7B808C24-29AE-4924-ACB7-34C6E110771F}
+		{64579844-429B-41CF-ACA6-6E42A8DFF26A} = {9574B91A-8F7F-4DF9-9521-AB44F6865CAD}
+		{85940E00-7451-4609-8183-0248B52A6F44} = {65449D6D-60F6-4532-BF3E-35F95DF63D66}
+		{93886308-4988-473E-B3A2-389EB406527D} = {9574B91A-8F7F-4DF9-9521-AB44F6865CAD}
+		{DBA1C3FD-5E2B-4EEC-A504-A68C4351D9C8} = {8D12F3C0-937B-4054-8C6D-DC98616D6C34}
+		{56B5FEBA-B500-45DB-99B6-46EA3275D413} = {4AD7B608-16FE-4A6B-886E-ADF0DBE3E51B}
+		{A9736289-56B0-4010-A022-83DE1E00EF53} = {9574B91A-8F7F-4DF9-9521-AB44F6865CAD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F30D18CF-908D-4B02-BDF8-F8BF6739C262}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://emmanuelnuyttens.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SmartFreezer.MachineSimulator.UI\\SmartFreezer.MachineSimulator.UI.csproj
+		SccProjectTopLevelParentUniqueName1 = SmartFreezer.sln
+		SccProjectName1 = SmartFreezer.MachineSimulator.UI
+		SccLocalPath1 = SmartFreezer.MachineSimulator.UI
+		SccProjectUniqueName2 = SmartFreezer.EventHub.Sender\\SmartFreezer.EventHub.Sender.csproj
+		SccProjectTopLevelParentUniqueName2 = SmartFreezer.sln
+		SccProjectName2 = SmartFreezer.EventHub.Sender
+		SccLocalPath2 = SmartFreezer.EventHub.Sender
+		SccProjectUniqueName3 = SmartFreezer.EventConsumer.EventHubClient.SinglePartition\\SmartFreezer.EventConsumer.EventHubClient.SinglePartition.csproj
+		SccProjectTopLevelParentUniqueName3 = SmartFreezer.sln
+		SccProjectName3 = SmartFreezer.EventConsumer.EventHubClient.SinglePartition
+		SccLocalPath3 = SmartFreezer.EventConsumer.EventHubClient.SinglePartition
+		SccProjectUniqueName4 = SmartFreezer.Domain\\SmartFreezer.Domain.csproj
+		SccProjectTopLevelParentUniqueName4 = SmartFreezer.sln
+		SccProjectName4 = SmartFreezer.Domain
+		SccLocalPath4 = SmartFreezer.Domain
+		SccProjectUniqueName5 = SmartFreezer.EventConsumer.EventHubClient.AllPartitions\\SmartFreezer.EventConsumer.EventHubClient.AllPartitions.csproj
+		SccProjectTopLevelParentUniqueName5 = SmartFreezer.sln
+		SccProjectName5 = SmartFreezer.EventConsumer.EventHubClient.AllPartitions
+		SccLocalPath5 = SmartFreezer.EventConsumer.EventHubClient.AllPartitions
+		SccProjectUniqueName6 = SmartFreezer.EventArchive.CaptureReceiver\\SmartFreezer.EventArchive.CaptureReceiver.csproj
+		SccProjectTopLevelParentUniqueName6 = SmartFreezer.sln
+		SccProjectName6 = SmartFreezer.EventArchive.CaptureReceiver
+		SccLocalPath6 = SmartFreezer.EventArchive.CaptureReceiver
+		SccProjectUniqueName7 = SmartFreezer.AzureFunctions\\SmartFreezer.AzureFunctions.csproj
+		SccProjectTopLevelParentUniqueName7 = SmartFreezer.sln
+		SccProjectName7 = SmartFreezer.AzureFunctions
+		SccLocalPath7 = SmartFreezer.AzureFunctions
+		SccProjectUniqueName8 = SmartFreezer.EventConsumer.EventProcessorHost\\SmartFreezer.EventConsumer.EventProcessorHost.csproj
+		SccProjectTopLevelParentUniqueName8 = SmartFreezer.sln
+		SccProjectName8 = SmartFreezer.EventConsumer.EventProcessorHost
+		SccLocalPath8 = SmartFreezer.EventConsumer.EventProcessorHost
+	EndGlobalSection
+EndGlobal
